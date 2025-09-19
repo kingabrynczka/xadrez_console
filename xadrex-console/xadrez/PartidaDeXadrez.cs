@@ -174,7 +174,7 @@ namespace xadrez
                 turno++;
                 mudaJogador();
             }
-            Peca p = tab.peca(destino);
+            
 
             // #jogadaespecial en passant
             if(p is Peao && (destino.linha == origem.linha -2 || destino.linha == origem.linha +2))
